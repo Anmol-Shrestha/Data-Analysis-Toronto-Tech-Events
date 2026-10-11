@@ -1,0 +1,151 @@
+event_id,event_name,category,date,day_of_week,start_time,end_time,venue
+EVT-1000,Toronto Python Meetup,AI,2026-04-13,Monday,19:00,21:00,WeWork Queen St
+EVT-1001,Startup Tech Mixer,AI,2026-10-02,Friday,18:30,20:30,Shopify Toronto
+EVT-1002,Toronto Machine Learning,AI,2026-04-15,Wednesday,17:30,19:30,Accelerator Centre
+EVT-1003,PyData Toronto,AI,2026-03-10,Tuesday,18:00,20:00,Shopify Toronto
+EVT-1004,Cloud Native Toronto,Cloud & DevOps,2026-07-09,Thursday,17:00,19:00,MaRS Discovery District
+EVT-1005,PyData Toronto,AI,2026-01-23,Friday,17:45,19:45,Accelerator Centre
+EVT-1006,AI Tinkerers Toronto,Data Engineering,2026-04-14,Tuesday,19:30,21:30,Shopify Toronto
+EVT-1007,Cloud Native Toronto,AI,2026-04-30,Thursday,19:15,21:15,Google Toronto
+EVT-1008,DevOps Toronto,Software Development,2026-08-03,Monday,17:45,19:45,MaRS Discovery District
+EVT-1009,Startup Tech Mixer,Data Engineering,2026-03-23,Monday,18:00,20:00,Shopify Toronto
+EVT-1010,Toronto Machine Learning,Software Development,2026-04-09,Thursday,17:00,19:00,Google Toronto
+EVT-1011,Toronto Python Meetup,Software Development,2026-06-04,Thursday,17:30,19:30,Google Toronto
+EVT-1012,AI Tinkerers Toronto,Software Development,2026-05-14,Thursday,18:00,20:00,RBC WaterPark Place
+EVT-1013,Toronto Machine Learning,AI,2026-05-29,Friday,17:15,19:15,MaRS Discovery District
+EVT-1014,Data Platform Meetup,Cloud & DevOps,2026-09-20,Sunday,19:30,21:30,Google Toronto
+EVT-1015,DevOps Toronto,Data Engineering,2026-07-09,Thursday,19:00,21:00,RBC WaterPark Place
+EVT-1016,Toronto Machine Learning,Cloud & DevOps,2026-06-10,Wednesday,18:30,20:30,Shopify Toronto
+EVT-1017,DevOps Toronto,AI,2026-01-23,Friday,17:00,19:00,UofT St. George
+EVT-1018,DevOps Toronto,Data Engineering,2026-09-09,Wednesday,18:00,20:00,MaRS Discovery District
+EVT-1019,PyData Toronto,Cloud & DevOps,2026-08-26,Wednesday,19:00,21:00,Accelerator Centre
+EVT-1020,Full Stack Builders,AI,2026-02-16,Monday,19:15,21:15,WeWork Queen St
+EVT-1021,Data Platform Meetup,AI,2026-02-23,Monday,18:15,20:15,WeWork Queen St
+EVT-1022,AI Tinkerers Toronto,Data Engineering,2026-06-21,Sunday,18:30,20:30,Shopify Toronto
+EVT-1023,Toronto Machine Learning,Software Development,2026-07-10,Friday,19:00,21:00,Shopify Toronto
+EVT-1024,Toronto JS,Data Engineering,2026-10-02,Friday,19:00,21:00,Google Toronto
+EVT-1025,AI Tinkerers Toronto,AI,2026-07-08,Wednesday,18:15,20:15,MaRS Discovery District
+EVT-1026,Full Stack Builders,Data Engineering,2026-06-23,Tuesday,19:00,21:00,WeWork Queen St
+EVT-1027,AI Tinkerers Toronto,AI,2026-02-17,Tuesday,18:15,20:15,WeWork Queen St
+EVT-1028,GenAI Collective TO,AI,2026-02-25,Wednesday,18:00,20:00,Google Toronto
+EVT-1029,Toronto JS,AI,2026-09-03,Thursday,18:30,20:30,WeWork Queen St
+EVT-1030,Full Stack Builders,Data Engineering,2026-05-15,Friday,17:00,19:00,Accelerator Centre
+EVT-1031,PyData Toronto,Software Development,2026-05-15,Friday,18:00,20:00,MaRS Discovery District
+EVT-1032,Toronto Machine Learning,Software Development,2026-01-21,Wednesday,18:45,20:45,Communitech Hub
+EVT-1033,Startup Tech Mixer,AI,2026-06-21,Sunday,17:15,19:15,WeWork Queen St
+EVT-1034,AI Engineer Summit,Cloud & DevOps,2026-04-03,Friday,17:00,19:00,Shopify Toronto
+EVT-1035,Full Stack Builders,AI,2026-01-15,Thursday,18:00,20:00,Accelerator Centre
+EVT-1036,Toronto Python Meetup,Data Engineering,2026-08-27,Thursday,19:45,21:45,WeWork Queen St
+EVT-1037,Toronto Machine Learning,Software Development,2026-09-23,Wednesday,17:45,19:45,Accelerator Centre
+EVT-1038,Data Platform Meetup,AI,2026-02-18,Wednesday,19:15,21:15,RBC WaterPark Place
+EVT-1039,Full Stack Builders,Software Development,2026-04-01,Wednesday,17:45,19:45,Communitech Hub
+EVT-1040,GenAI Collective TO,AI,2026-09-25,Friday,19:30,21:30,Amazon Toronto
+EVT-1041,AI Engineer Summit,Data Engineering,2026-02-02,Monday,18:45,20:45,Shopify Toronto
+EVT-1042,GenAI Collective TO,Software Development,2026-07-21,Tuesday,17:30,19:30,Shopify Toronto
+EVT-1043,AI Engineer Summit,AI,2026-03-16,Monday,18:15,20:15,MaRS Discovery District
+EVT-1044,Data Platform Meetup,Cloud & DevOps,2026-02-16,Monday,17:15,19:15,Accelerator Centre
+EVT-1045,Startup Tech Mixer,AI,2026-01-02,Friday,19:15,21:15,Google Toronto
+EVT-1046,Toronto Python Meetup,Software Development,2026-02-27,Friday,17:15,19:15,Shopify Toronto
+EVT-1047,Toronto Machine Learning,Cloud & DevOps,2026-04-15,Wednesday,17:15,19:15,Accelerator Centre
+EVT-1048,PyData Toronto,Software Development,2026-09-14,Monday,17:30,19:30,Accelerator Centre
+EVT-1049,GenAI Collective TO,AI,2026-07-08,Wednesday,17:30,19:30,UofT St. George
+EVT-1050,GenAI Collective TO,Cloud & DevOps,2026-08-05,Wednesday,18:15,20:15,UofT St. George
+EVT-1051,DevOps Toronto,Software Development,2026-02-10,Tuesday,18:45,20:45,Amazon Toronto
+EVT-1052,AI Engineer Summit,AI,2026-06-10,Wednesday,18:00,20:00,RBC WaterPark Place
+EVT-1053,Cloud Native Toronto,AI,2026-07-22,Wednesday,18:15,20:15,Amazon Toronto
+EVT-1054,Startup Tech Mixer,Data Engineering,2026-09-24,Thursday,17:45,19:45,WeWork Queen St
+EVT-1055,Toronto Machine Learning,Software Development,2026-10-01,Thursday,18:00,20:00,Google Toronto
+EVT-1056,AI Engineer Summit,Software Development,2026-08-03,Monday,18:15,20:15,WeWork Queen St
+EVT-1057,DevOps Toronto,Cloud & DevOps,2026-09-09,Wednesday,18:15,20:15,WeWork Queen St
+EVT-1058,AI Tinkerers Toronto,Data Engineering,2026-07-09,Thursday,19:30,21:30,MaRS Discovery District
+EVT-1059,AI Engineer Summit,AI,2026-07-30,Thursday,18:00,20:00,WeWork Queen St
+EVT-1060,PyData Toronto,AI,2026-07-31,Friday,18:00,20:00,Amazon Toronto
+EVT-1061,Toronto Machine Learning,AI,2026-08-28,Friday,18:45,20:45,Shopify Toronto
+EVT-1062,Startup Tech Mixer,Data Engineering,2026-02-17,Tuesday,19:30,21:30,Shopify Toronto
+EVT-1063,DevOps Toronto,AI,2026-08-03,Monday,17:30,19:30,UofT St. George
+EVT-1064,AI Tinkerers Toronto,Software Development,2026-09-10,Thursday,18:30,20:30,Google Toronto
+EVT-1065,Toronto JS,Data Engineering,2026-07-06,Monday,17:30,19:30,Google Toronto
+EVT-1066,DevOps Toronto,Cloud & DevOps,2026-02-12,Thursday,19:00,21:00,MaRS Discovery District
+EVT-1067,Toronto JS,AI,2026-06-06,Saturday,19:00,21:00,Amazon Toronto
+EVT-1068,Toronto Machine Learning,Data Engineering,2026-01-15,Thursday,17:15,19:15,UofT St. George
+EVT-1069,GenAI Collective TO,AI,2026-03-04,Wednesday,17:15,19:15,Google Toronto
+EVT-1070,DevOps Toronto,Data Engineering,2026-01-08,Thursday,18:30,20:30,Shopify Toronto
+EVT-1071,Toronto Python Meetup,AI,2026-05-06,Wednesday,19:30,21:30,WeWork Queen St
+EVT-1072,Toronto JS,AI,2026-05-14,Thursday,17:30,19:30,WeWork Queen St
+EVT-1073,PyData Toronto,Data Engineering,2026-03-07,Saturday,17:15,19:15,UofT St. George
+EVT-1074,Toronto Python Meetup,AI,2026-05-20,Wednesday,18:45,20:45,Amazon Toronto
+EVT-1075,Full Stack Builders,AI,2026-03-22,Sunday,19:45,21:45,Amazon Toronto
+EVT-1076,Full Stack Builders,Data Engineering,2026-06-13,Saturday,19:15,21:15,RBC WaterPark Place
+EVT-1077,AI Tinkerers Toronto,Data Engineering,2026-09-15,Tuesday,17:15,19:15,Communitech Hub
+EVT-1078,Startup Tech Mixer,Software Development,2026-08-17,Monday,18:15,20:15,Google Toronto
+EVT-1079,GenAI Collective TO,Software Development,2026-02-10,Tuesday,18:15,20:15,Amazon Toronto
+EVT-1080,Toronto Machine Learning,Software Development,2026-01-26,Monday,18:15,20:15,Shopify Toronto
+EVT-1081,DevOps Toronto,AI,2026-05-11,Monday,19:15,21:15,UofT St. George
+EVT-1082,Cloud Native Toronto,AI,2026-07-24,Friday,19:30,21:30,RBC WaterPark Place
+EVT-1083,PyData Toronto,AI,2026-09-21,Monday,17:30,19:30,Accelerator Centre
+EVT-1084,Toronto JS,Cloud & DevOps,2026-02-04,Wednesday,19:30,21:30,MaRS Discovery District
+EVT-1085,Toronto Machine Learning,Software Development,2026-02-20,Friday,17:30,19:30,Accelerator Centre
+EVT-1086,Toronto Python Meetup,Software Development,2026-03-02,Monday,18:15,20:15,WeWork Queen St
+EVT-1087,Data Platform Meetup,Software Development,2026-08-07,Friday,18:45,20:45,MaRS Discovery District
+EVT-1088,Full Stack Builders,Cloud & DevOps,2026-04-08,Wednesday,17:00,19:00,Google Toronto
+EVT-1089,Data Platform Meetup,AI,2026-06-16,Tuesday,17:15,19:15,Shopify Toronto
+EVT-1090,PyData Toronto,Software Development,2026-07-31,Friday,18:00,20:00,MaRS Discovery District
+EVT-1091,Cloud Native Toronto,Software Development,2026-02-05,Thursday,18:45,20:45,Communitech Hub
+EVT-1092,DevOps Toronto,Software Development,2026-08-14,Friday,17:30,19:30,Accelerator Centre
+EVT-1093,AI Tinkerers Toronto,AI,2026-04-10,Friday,17:45,19:45,Google Toronto
+EVT-1094,Cloud Native Toronto,Cloud & DevOps,2026-05-15,Friday,18:15,20:15,Communitech Hub
+EVT-1095,PyData Toronto,Cloud & DevOps,2026-09-16,Wednesday,18:30,20:30,WeWork Queen St
+EVT-1096,Cloud Native Toronto,Software Development,2026-01-06,Tuesday,17:15,19:15,Communitech Hub
+EVT-1097,PyData Toronto,Software Development,2026-08-07,Friday,18:30,20:30,RBC WaterPark Place
+EVT-1098,PyData Toronto,Cloud & DevOps,2026-09-11,Friday,17:00,19:00,RBC WaterPark Place
+EVT-1099,AI Engineer Summit,Data Engineering,2026-07-26,Sunday,17:00,19:00,UofT St. George
+EVT-1100,Toronto JS,AI,2026-01-14,Wednesday,18:00,20:00,Google Toronto
+EVT-1101,Data Platform Meetup,Software Development,2026-02-11,Wednesday,17:45,19:45,WeWork Queen St
+EVT-1102,Full Stack Builders,Software Development,2026-06-26,Friday,17:15,19:15,Amazon Toronto
+EVT-1103,AI Engineer Summit,Software Development,2026-03-04,Wednesday,19:45,21:45,RBC WaterPark Place
+EVT-1104,DevOps Toronto,Data Engineering,2026-08-22,Saturday,18:00,20:00,Google Toronto
+EVT-1105,AI Engineer Summit,Cloud & DevOps,2026-08-28,Friday,19:15,21:15,Amazon Toronto
+EVT-1106,GenAI Collective TO,Cloud & DevOps,2026-02-18,Wednesday,17:00,19:00,UofT St. George
+EVT-1107,GenAI Collective TO,Software Development,2026-04-10,Friday,17:45,19:45,Communitech Hub
+EVT-1108,Full Stack Builders,AI,2026-08-14,Friday,17:45,19:45,RBC WaterPark Place
+EVT-1109,Cloud Native Toronto,Cloud & DevOps,2026-08-18,Tuesday,18:45,20:45,Google Toronto
+EVT-1110,Toronto JS,Data Engineering,2026-08-29,Saturday,17:00,19:00,MaRS Discovery District
+EVT-1111,Full Stack Builders,AI,2026-05-21,Thursday,18:15,20:15,Amazon Toronto
+EVT-1112,PyData Toronto,Cloud & DevOps,2026-06-19,Friday,17:15,19:15,Communitech Hub
+EVT-1113,Toronto Python Meetup,Cloud & DevOps,2026-01-28,Wednesday,18:00,20:00,RBC WaterPark Place
+EVT-1114,Toronto JS,Software Development,2026-02-06,Friday,18:15,20:15,WeWork Queen St
+EVT-1115,Startup Tech Mixer,Software Development,2026-01-14,Wednesday,18:00,20:00,Amazon Toronto
+EVT-1116,Data Platform Meetup,AI,2026-06-08,Monday,19:15,21:15,RBC WaterPark Place
+EVT-1117,Toronto JS,AI,2026-07-11,Saturday,18:30,20:30,Amazon Toronto
+EVT-1118,PyData Toronto,AI,2026-08-31,Monday,18:30,20:30,Communitech Hub
+EVT-1119,PyData Toronto,Data Engineering,2026-03-25,Wednesday,18:45,20:45,RBC WaterPark Place
+EVT-1120,AI Tinkerers Toronto,AI,2026-03-08,Sunday,19:30,21:30,Accelerator Centre
+EVT-1121,Full Stack Builders,AI,2026-06-21,Sunday,18:30,20:30,Google Toronto
+EVT-1122,PyData Toronto,AI,2026-02-12,Thursday,19:30,21:30,Communitech Hub
+EVT-1123,GenAI Collective TO,Software Development,2026-03-05,Thursday,17:00,19:00,Amazon Toronto
+EVT-1124,DevOps Toronto,Cloud & DevOps,2026-05-13,Wednesday,18:30,20:30,WeWork Queen St
+EVT-1125,Toronto Python Meetup,AI,2026-01-28,Wednesday,18:30,20:30,MaRS Discovery District
+EVT-1126,Data Platform Meetup,AI,2026-04-15,Wednesday,18:45,20:45,Amazon Toronto
+EVT-1127,Full Stack Builders,Data Engineering,2026-02-13,Friday,18:30,20:30,Google Toronto
+EVT-1128,Toronto Machine Learning,Software Development,2026-05-08,Friday,19:30,21:30,RBC WaterPark Place
+EVT-1129,GenAI Collective TO,AI,2026-08-21,Friday,18:15,20:15,MaRS Discovery District
+EVT-1130,Startup Tech Mixer,Software Development,2026-07-10,Friday,18:45,20:45,Shopify Toronto
+EVT-1131,Cloud Native Toronto,AI,2026-08-10,Monday,19:45,21:45,Amazon Toronto
+EVT-1132,PyData Toronto,AI,2026-04-29,Wednesday,17:45,19:45,UofT St. George
+EVT-1133,Toronto Machine Learning,Software Development,2026-04-20,Monday,18:45,20:45,Shopify Toronto
+EVT-1134,PyData Toronto,Software Development,2026-08-20,Thursday,17:45,19:45,Amazon Toronto
+EVT-1135,Toronto JS,Cloud & DevOps,2026-09-16,Wednesday,18:45,20:45,Accelerator Centre
+EVT-1136,GenAI Collective TO,AI,2026-07-17,Friday,19:00,21:00,UofT St. George
+EVT-1137,Toronto JS,Software Development,2026-05-13,Wednesday,17:30,19:30,MaRS Discovery District
+EVT-1138,AI Tinkerers Toronto,Software Development,2026-06-09,Tuesday,19:45,21:45,WeWork Queen St
+EVT-1139,Toronto JS,AI,2026-08-11,Tuesday,18:30,20:30,Accelerator Centre
+EVT-1140,AI Tinkerers Toronto,Software Development,2026-08-21,Friday,18:30,20:30,Shopify Toronto
+EVT-1141,Startup Tech Mixer,AI,2026-06-18,Thursday,19:00,21:00,RBC WaterPark Place
+EVT-1142,AI Tinkerers Toronto,Cloud & DevOps,2026-06-02,Tuesday,17:45,19:45,Google Toronto
+EVT-1143,Toronto Machine Learning,AI,2026-06-08,Monday,18:15,20:15,WeWork Queen St
+EVT-1144,PyData Toronto,Software Development,2026-04-10,Friday,19:00,21:00,Accelerator Centre
+EVT-1145,Cloud Native Toronto,AI,2026-08-17,Monday,19:15,21:15,RBC WaterPark Place
+EVT-1146,Data Platform Meetup,Cloud & DevOps,2026-07-03,Friday,17:30,19:30,RBC WaterPark Place
+EVT-1147,Toronto JS,Software Development,2026-04-24,Friday,18:30,20:30,Amazon Toronto
+EVT-1148,Data Platform Meetup,Software Development,2026-02-16,Monday,17:00,19:00,Accelerator Centre
+EVT-1149,GenAI Collective TO,AI,2026-09-21,Monday,18:00,20:00,MaRS Discovery District
