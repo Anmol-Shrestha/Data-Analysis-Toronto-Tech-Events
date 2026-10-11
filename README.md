@@ -1,49 +1,27 @@
 # Toronto Tech Events Analysis 📊
 
-A data analysis project for Toronto tech/AI events with **two purpose-built deployments**: an interactive Streamlit dashboard for exploration and an executive report for storytelling.
+Analysis of Toronto tech and AI events to identify networking patterns and optimal attendance strategies.
 
-## 🎯 Two Deployments, Two Audiences
+## 🎯 Goal
 
-| 📱 **Streamlit Dashboard** | 📄 **Executive Report** |
-|---------------------------|------------------------|
-| **For:** Team, analysts, explorers | **For:** Managers, executives, storytellers |
-| Real-time filtering | Key findings highlighted |
-| Live data exploration | Business impact metrics |
-| CSV downloads | Actionable recommendations |
-| Multi-tab interface | Professional narrative |
-| **[Deploy here →](DEPLOYMENT_GUIDE.md#part-1-deploy-to-streamlit-cloud-)** | **[Deploy here →](DEPLOYMENT_GUIDE.md#part-2-deploy-executive-report-to-github-pages-)** |
+Analyze event data to discover actionable insights about when and where tech networking happens in Toronto.
 
-## 📋 Key Finding
+**Key Finding:** 49% of events occur on Wednesday and Friday from 6:00 PM - 8:00 PM.
 
-**Tech events in Toronto peak on Wednesday and Friday from 6:00 PM to 8:00 PM.**
+## 🛠️ Technologies Used
 
-Nearly **50% of all events (73 of 150)** occur on just these two days, creating a concentrated networking opportunity.
+- **Python** — Data processing and analysis
+- **Pandas** — Data manipulation
+- **Plotly** — Interactive visualizations
+- **Streamlit** — Interactive web dashboard
+- **GitHub Actions** — Automated report generation
 
----
+## 📊 Results
 
-## 🚀 Quick Start
-
-### Prerequisites
-```bash
-pip install pandas matplotlib seaborn plotly streamlit
-```
-
-### Deployment Options
-
-**Option 1: Deploy Streamlit Dashboard to Cloud**
-```bash
-streamlit run dashboard.py  # Run locally first to test
-```
-Then deploy to [Streamlit Cloud](https://share.streamlit.io/) for your team.
-
-**Option 2: Deploy Executive Report to GitHub Pages**
-Push to GitHub and enable Pages in Settings. The report auto-generates on every data update.
-
-**Option 3: Local Command-Line Analysis**
-```bash
-python analyze_events.py
-```
-Generates console statistics + PNG visualizations.
+| Resource | Purpose |
+|----------|---------|
+| **[Executive Report](https://anmol-shrestha.github.io/Data-Analysis-Toronto-Tech-Events/)** | Narrative findings with business recommendations and key metrics |
+| **[Interactive Dashboard](https://data-analysis-toronto-tech-events.streamlit.app/)** | Explore data with filters, charts, and custom sorting |
 
 ---
 
@@ -51,161 +29,58 @@ Generates console statistics + PNG visualizations.
 
 ```
 .
+├── dashboard.py                      # Streamlit interactive dashboard
+├── generate_executive_report.py      # Report generator
+├── analyze_events.py                 # CLI analysis script
+├── index.html                        # Generated executive report
+├── CLAUDE.md                         # Code architecture
+├── DEPLOYMENT_GUIDE.md               # Deployment instructions
+├── README.md                         # This file
+├── requirements.txt                  # Dependencies
 ├── data/
-│   └── toronto_tech_events_synthetic.csv     # Event dataset
-├── dashboard.py                              # Streamlit app (interactive)
-├── generate_executive_report.py              # Report generator
-├── analyze_events.py                         # CLI analysis script
-├── index.html                                # Executive report (auto-generated)
-├── CLAUDE.md                                 # Code architecture
-├── DEPLOYMENT_GUIDE.md                       # Step-by-step deployment
-├── QUICK_START.md                            # 10-minute guide
-├── README.md                                 # This file
+│   └── toronto_tech_events_synthetic.csv
 └── .github/workflows/
-    └── generate-dashboard.yml                # Auto-generate report on push
+    └── generate-dashboard.yml        # Auto-generates report on push
 ```
-
----
-
-## 📊 What Each Does
-
-### Streamlit Dashboard (`dashboard.py`)
-Interactive exploration tool deployed to Streamlit Cloud:
-- 🔄 Real-time filtering by day & category
-- 📑 4 tabs: Day Distribution, Time Windows, Categories, Data Table
-- 💾 CSV download button
-- 🎯 Custom sorting & searching
-- 📊 Live metric cards
-
-**Best for:** Team collaboration, data exploration, Q&A sessions
-
-### Executive Report (`index.html`)
-Narrative-driven report deployed to GitHub Pages:
-- 🎯 Executive summary (the story)
-- 📈 Key findings with supporting charts
-- 💼 Business impact metrics
-- ✅ 4 actionable recommendations
-- 🎨 Professional styling
-
-**Best for:** Presentations, decision-making, stakeholder communication
-
-### Analysis Script (`analyze_events.py`)
-Reproducible analysis for technical deep-dives:
-- 🐍 Modular EventAnalyzer class
-- 📋 Console statistics
-- 🖼️ PNG chart exports
-
-**Best for:** Reproducibility, automation, technical documentation
-
----
-
-## 🌐 Deployment
-
-### Streamlit Cloud (Interactive Dashboard)
-
-1. Push to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io/)
-3. Click "New app" → Select `dashboard.py`
-4. Deploy ✅
-
-**Live at:** `https://your-custom-name.streamlit.app/`
-
-### GitHub Pages (Executive Report)
-
-1. Push to GitHub
-2. Settings → Pages → Deploy from `main` branch
-3. Save ✅
-
-**Live at:** `https://YOUR_USERNAME.github.io/data_analysis/`
-
-**Auto-updates:** GitHub Actions regenerates the report whenever you push data changes.
-
----
-
-## 🔄 Updating Data
-
-Both deployments auto-update:
-
-```bash
-# Update your CSV
-cp new_events.csv data/toronto_tech_events_synthetic.csv
-
-# Push to GitHub
-git add data/
-git commit -m "Update event data"
-git push
-
-# ✅ Both platforms regenerate automatically in 1-3 minutes
-```
-
----
 
 ## 📈 Data Format
 
-Required CSV columns:
+**Source:** Synthetically generated dataset (150 events)
+
+CSV columns:
 - `event_id` — Unique identifier
 - `event_name` — Event name
-- `category` — Category (AI, Cloud & DevOps, etc.)
+- `category` — Category (AI, Cloud & DevOps, Software Development, Data Engineering)
 - `date` — Event date (YYYY-MM-DD)
-- `day_of_week` — Day name (Monday-Sunday)
+- `day_of_week` — Day name
 - `start_time` — Start time (HH:MM)
 - `end_time` — End time (HH:MM)
 - `venue` — Location
 
----
+## 🔄 Updating Data
 
-## 🔧 Customization
+Replace the CSV and push to GitHub:
 
-**Change Executive Report Colors:**
-Edit `generate_executive_report.py`:
-```python
-colors = ['#FF6B6B', '#95E1D3', ...]  # Your brand colors
+```bash
+cp new_events.csv data/toronto_tech_events_synthetic.csv
+git add data/
+git commit -m "Update event data"
+git push
 ```
 
-**Change Streamlit Dashboard Colors:**
-Edit `dashboard.py` chart functions.
-
-**Update Analysis Logic:**
-Modify `analyze_events.py` EventAnalyzer methods.
-
----
+Both dashboard and report auto-update in 1-3 minutes.
 
 ## 📚 Documentation
 
-- **Quick Deployment:** `QUICK_START.md` (10 minutes)
-- **Detailed Instructions:** `DEPLOYMENT_GUIDE.md`
 - **Code Architecture:** `CLAUDE.md`
-- **CLI Usage:** `analyze_events.py --help`
+- **Deployment:** `DEPLOYMENT_GUIDE.md`
 
----
-
-## 🎯 Use Cases
-
-| Need | Use This |
-|------|----------|
-| Show your boss key findings | Executive Report |
-| Let team explore data live | Streamlit Dashboard |
-| Create automated reports | CLI Script |
-| Reproduce analysis | analyze_events.py |
-| Share insights quickly | GitHub Pages URL |
-
----
-
-## 🚀 Next Steps
-
-1. **Quick:** Read `QUICK_START.md` (5 min read)
-2. **Deploy:** Follow `DEPLOYMENT_GUIDE.md` (10 min setup)
-3. **Share:** Send both URLs to your team
-4. **Iterate:** Update data → both platforms auto-regenerate
-
----
-
-## 📞 Support
+## 🆘 Support
 
 **Streamlit Issues:** [docs.streamlit.io](https://docs.streamlit.io/)  
-**GitHub Pages Issues:** [docs.github.com/pages](https://docs.github.com/en/pages)  
-**Python/Data Issues:** Check `CLAUDE.md` for code architecture
+**GitHub Pages Issues:** [docs.github.com/pages](https://docs.github.com/en/pages)
 
 ---
 
-**Data:** 150 Toronto Tech Events | **Analysis:** October 2026 | **Purpose:** Strategic networking insights
+**Dataset:** 150 Toronto Tech Events (Synthetic)  
+**Analysis Date:** October 2026
